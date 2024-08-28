@@ -3,15 +3,15 @@ name: Run tests
 on:
   push:
     paths:
-      - '**.js'
-      - '**.json'
-      - '**.yaml'
+      - "**.js"
+      - "**.json"
+      - "**.yaml"
     branches:
       - main
       - livecode
 jobs:
   setup-and-test:
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4

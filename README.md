@@ -1,7 +1,9 @@
 # Fullstack-vanilla-javaScript-fem
 
+![Build Status](https://github.com/opagani/fullstack-vanilla-javaScript-fem-template/workflows/Run%20tests/badge.svg)
 
 ## Abstract Factory
+
 ```
 .
 ├── src
@@ -15,6 +17,7 @@
 └── ui
     └── index.html
 ```
+
 platforms/ - Platform-Specific Implementations: You have different implementations (view.js files) for console and web platforms, indicating that your controller might instantiate these based on the context or platform
 
 ui/index.js - Factory Behavior: Your controller is acting as a factory that decides which specific view to create based on the app running, which is the core of the Abstract Factory pattern.
@@ -22,7 +25,6 @@ ui/index.js - Factory Behavior: Your controller is acting as a factory that deci
 # Fullstack Vanilla JavaScript
 
 > August 28 to 29, 2024 - 9:30am to 5:30pm Central Daylight Time
-
 
 ![cover image](./cover.jpeg)
 
